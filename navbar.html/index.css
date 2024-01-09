@@ -1,0 +1,102 @@
+nav {
+	width: 100vw;
+	height: 10vh;
+	background-color: #e3effb;
+	display: flex;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navigation {
+	width: 95%;
+	height: 100%;
+	border: 1px solid black;
+	display: flex;
+}
+.nav-1 {
+	background-image: url("./marguerite-729510_640.jpg");
+	flex: 0.4;
+	background-size: cover;
+	background-position: center;
+}
+.nav-2 {
+	flex: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 11%;
+}
+.nav-3 {
+	display: flex;
+	flex: 0.3;
+	justify-content: space-around;
+	align-items: center;
+}
+.container-2 {
+	background-image: url("./download\ \(1\).jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main {
+	width: 100vw;
+	height: 84vh;
+	display: flex;
+}
+.main > div {
+	flex: 1;
+}
+.container-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+}
+.p-1 {
+	width: 50%;
+	height: fit-content;
+}
+.button-1 {
+	background-color: blue;
+	color: white;
+	padding: 5px 10px;
+}
+.container-3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+}
+.p-2{
+	width:50% ;
+	height:fit-content;
+}
+.button-2{
+	background-color: orange;
+	color: white;
+	padding: 5px 10px;
+}
+.main-2{
+	width:100vw ;
+	height: 84vh;
+	display: flex;
+}
+.main-2 >div{
+	flex: 1;
+}
+.container-4{
+		background-image: url("./download\ \(3\).jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.container-5{
+			background-image: url("");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
