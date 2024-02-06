@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+nav {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.logo {
+	color: white;
+}
+.nav-items {
+	display: flex;
+	gap: 20px;
+}
+.nav-items li > a {
+	color: white;
+}
+.main {
+	background-image: url(./nathan-dumlao-zUNs99PGDg0-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+#special-offers {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+}
+.offer-title h3 {
+	font-family: cursive;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	color: #cf9b67;
+	letter-spacing: 2px;
+}
+.offer-title h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 2.3rem;
+	margin-top: 0;
+}
+.offer-title hr {
+	width: 5%;
+	margin-left: 0;
+	border: 1px solid #cf9b67;
+}
+.offers-menu {
+	border: 5px 0px 5px 5px;
+	border-color: gold;
+	border-style: solid;
+	width: 50%;
+	padding: 20px;
+}
+
+.menu-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-card img {
+	border: 12px solid ghostwhite;
+}
+
+.menu-card .menu-details {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+.menu-card .price {
+	font-size: 20px;
+	padding: 0 5px;
+}
+.images {
+	display: grid;
+	grid-template-columns: repeat(2, 200px);
+	column-gap: 10px;
+	row-gap: 20px;
+}
+
+.cafe {
+	height: 100vh;
+	width: 100vw;
+}
+.table {
+	background-image: url("./cafe.jpg");
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+}
+.reservation {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 100vh;
+	width: 50%;
+	margin-left: 50px;
+}
+.reservation > h1 {
+	color: #cf9b67;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.reservation > h2 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.form-input > input {
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 10px;
+	flex-basis: 100%;
+}
+
+.form-input {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5px;
+	padding: 5px;
+	margin: 30px;
+}
+
+.form-input > textarea {
+	display: flex;
+	border-radius: 10px;
+	grid-column: 1 / span 2;
+	padding: 16px;
+}
+.reservation > hr {
+	width: 15%;
+	margin-left: 0;
+	border: 1px solid #cf9b67;
+}
+.main-2 {
+	padding: 20px;
+	margin-top: 10px;
+}
+.main-2 > h1 {
+	color: #cf9b67;
+	font-size: 15px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+}
+.main-2 > h3 {
+	text-transform: uppercase;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+}
+.main-2 > hr {
+	width: 10%;
+	border: 1px solid #cf9b67;
+	margin: auto;
+}
+.button {
+	display: flex;
+	justify-content: space-around;
+	justify-items: center;
+	padding: 20px;
+}
+
+.button button {
+	font-size: 1rem;
+	padding: 18px 24px;
+}
+
+.food-lover {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.chicken {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.feedback{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feedback>h1{
+	color: #cf9b67;
+}
+
+.feedback>h3{
+	text-transform: uppercase;
+	font-size: larger;
+}
+hr{
+	width: 15%;
+	margin-left: 0;
+	border: 1px solid #cf9b67;
+}
+
